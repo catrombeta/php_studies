@@ -8,8 +8,8 @@
 </head>
 <body>
     <?php
-        $valor = 10;
-        $valor2 = (float) $valor;
+        $valor = 10.14;
+        $valor2 = (int) $valor; // transformou em número inteiro. Pode ser utilizado int ou integer
 
         echo gettype($valor);
         echo ('<br />');
